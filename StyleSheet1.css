@@ -2,6 +2,7 @@
 {
 	 background-image: url("background.jpg");
 	 background-repeat: no-repeat;
+	 -webkit-background-size: cover;
 	 background-size: 110%;
 	 position: relative;
 }
