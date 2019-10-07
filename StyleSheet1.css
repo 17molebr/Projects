@@ -31,7 +31,7 @@ body
 }
 
 #MyLink{
-	position: relative;
+	position: absolute;
 	top: 85%;
 	left: 48%;
 	
