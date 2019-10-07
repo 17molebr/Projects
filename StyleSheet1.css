@@ -99,6 +99,10 @@
   
   transform: translate(-50%, -35%);
 } 
+h1,h2, p{
+	line-height: 20px;
+}
+
 
 a:link, a:visited {
   background-color: #81C9EA;
