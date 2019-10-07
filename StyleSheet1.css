@@ -1,10 +1,10 @@
-﻿body
+body
 {
 	 background-image: url("background.jpg");
 	 background-repeat: no-repeat;
-	 -webkit-background-size: cover;
-	 background-size: 200%;
-	 position: relative;
+	 background-size: 200%
+	-webkit-background-size: cover;	 
+	position: relative;
 }
 
 #TopName {
@@ -17,8 +17,9 @@
 #TopAbout{
 	font-family: "Roboto", Roboto, sans-serif;
 	color: #D6DBE1;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
+	padding: 5px;
 }
 
 #FirstP{
@@ -27,16 +28,14 @@
 	font-size: 18px;
 	text-align: center;
 	line-height: 1.6;
-	padding: 10px;
 }
 
 #MyLink{
 	position: relative;
-	top: 55%;
+	top: 65%;
 	left: 48%;
 	
 }
-
 
 
 
@@ -99,6 +98,7 @@
   
   transform: translate(-50%, -35%);
 } 
+
 h1,h2, p{
 	line-height: 20px;
 }
@@ -109,7 +109,6 @@ a:link, a:visited {
   color: white;
   padding: 14px 25px;
   position: relative;
-  top: -10%;
   left: -2%;
   text-decoration: none;
   display: inline-block;
