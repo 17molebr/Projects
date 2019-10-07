@@ -30,6 +30,13 @@
 	padding: 20px;
 }
 
+#MyLink{
+	position: relative;
+	top: 65%;
+	left: 48%;
+	
+}
+
 
 
 #rectangle{
@@ -92,4 +99,16 @@
   transform: translate(-50%, -35%);
 } 
 
+a:link, a:visited {
+  background-color: #81C9EA;
+  color: white;
+  padding: 14px 25px;
+  position: relative;
+  left: -2%;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a:hover, a:active {
+  background-color: #C9E2EE ;
+}
